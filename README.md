@@ -1,69 +1,44 @@
-# React + TypeScript + Vite
+# 📊 FinMate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**FinMate** é um app web de finanças pessoais feito para casais — no caso, para mim e minha namorada ❤️.  
+A ideia é simples: um espaço compartilhado para organizar, planejar e visualizar gastos e metas financeiras juntos.  
 
-Currently, two official plugins are available:
+Este projeto é mais um **playground** do que um produto final: vou usar o FinMate para praticar minhas habilidades em desenvolvimento web, experimentar tecnologias e me divertir criando algo útil no processo. 🚀  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🎯 Objetivos do Projeto
+- Criar um app web moderno de finanças pessoais para uso em conjunto.  
+- Praticar conceitos de **frontend** (React, Svelte, Angular, etc.) e **backend** (Node.js, APIs, banco de dados).  
+- Brincar com design, UX/UI e talvez até um pouco de **data visualization**.  
+- Ter um espaço real para aplicar ideias sem pressão — só diversão e aprendizado.  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🔧 Tecnologias (prováveis)
+- **Frontend**: React + TailwindCSS (ou testar Svelte/Angular em versões alternativas).  
+- **Backend**: Node.js / Express (ou talvez algum BaaS, tipo Firebase, só para brincar).  
+- **Banco de Dados**: Postgres ou MongoDB.  
+- **Extras**: Chart.js ou Recharts para gráficos.  
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+*(Essa stack pode mudar conforme eu for explorando 😅)*  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠️ Funcionalidades planejadas
+- Cadastro de despesas e receitas.  
+- Categorias personalizadas.  
+- Relatórios e gráficos de gastos.  
+- Conta compartilhada para duas pessoas.  
+- (Talvez no futuro) Metas financeiras a dois.  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📌 Status
+🚧 Projeto em fase inicial — explorando ideias, prototipando e definindo tecnologias.  
+
+---
+
+## ⚡ Nota Pessoal
+Esse é um projeto **não comercial**, feito para aprendizado, diversão e prática.  
+Se por acaso alguém cair aqui, sinta-se à vontade para dar sugestões ou trocar ideias!  
